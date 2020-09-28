@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="conf.Series">
+    <Position X="6" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAQAAAAAAAAAAEAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Series.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="conf.Developer" Collapsed="true">
+    <Position X="19" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEgAAAAAAAAAAAAQAAAAQAABAAAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>Developer.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="transaction" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="conf.Exterior">
+    <Position X="4.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAQAAAAAABAAAAAEIAAAAAAAAAIIAA=</HashCode>
+      <FileName>Exterior.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="model" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="conf.Form1" Collapsed="true">
+    <Position X="17.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CCAAAAQQACAACBAIAAiBAABCgAQIAAAhEEQAAQDFAAA=</HashCode>
+      <FileName>Form1.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="conn" />
+      <Field Name="LogPas" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="conf.Form2" Collapsed="true">
+    <Position X="12.25" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>/2CIIx0RASAyQZDcFByAYMJDIPw7sKMT+Hw/EHDtBLA=</HashCode>
+      <FileName>Form2.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="connn" />
+      <Field Name="model" />
+      <Field Name="exterior" />
+      <Field Name="info" />
+      <Field Name="interior" />
+      <Field Name="options" />
+      <Field Name="order" />
+      <Field Name="recom" />
+      <Field Name="series" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="conf.Form3" Collapsed="true">
+    <Position X="19" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAQRACAgAFAYAAiCAEACANk4ACCAEHAOAAAFBIA=</HashCode>
+      <FileName>Form3.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="adapter" />
+      <Field Name="commandBuilder" />
+      <Field Name="connn" />
+      <Field Name="developer" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="conf.Info">
+    <Position X="13.75" Y="1.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>ENBAAQgAAUgIEQABACBAZAQAFEAAoCACwEAAwCgIAAA=</HashCode>
+      <FileName>Info.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="exterior" />
+      <Field Name="interior" />
+      <Field Name="model" />
+      <Field Name="options" />
+      <Field Name="series" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="conf.Interior">
+    <Position X="4.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAABAAAAAAQAAAAAAAAAACAAAAgAAAAABAIAAA=</HashCode>
+      <FileName>Interior.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="model" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="conf.LoginPass">
+    <Position X="17.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAAACAAAEAAAAAAAQSAAAAAA=</HashCode>
+      <FileName>LoginPass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="conf.Model">
+    <Position X="6" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAACAAAAQAAAAAgAAAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>Model.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="series" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="conf.Options">
+    <Position X="10" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAQAAAEAAAEAAAAkAAAAAAAIAAIAgA=</HashCode>
+      <FileName>Options.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="model" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="conf.Order">
+    <Position X="15.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAABAAAQAAAAAAABAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Order.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="conf.Program">
+    <Position X="15.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="conf.RecomSystem">
+    <Position X="8.25" Y="0.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>CABAg4AAAACAACQQIABAAAAAQgAAAAAEwBAAwgAKAAA=</HashCode>
+      <FileName>RecomSystem.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="model" />
+      <Field Name="series" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Oracle.ManagedDataAccess.Client.OracleConnection" Collapsed="true">
+    <Position X="15.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Oracle.ManagedDataAccess.Client.OracleDataAdapter" Collapsed="true">
+    <Position X="21" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Oracle.ManagedDataAccess.Client.OracleCommandBuilder" Collapsed="true">
+    <Position X="21" Y="1.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Oracle.ManagedDataAccess.Client.OracleTransaction" Collapsed="true">
+    <Position X="21" Y="2.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
